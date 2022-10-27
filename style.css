@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+}
+
+div {
+    width: 200px;
+    margin: 100px auto 100px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    background-color:#0a0a23;
+    color: #fff;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(27, 25, 25);
+}
+
+#b1 {
+   margin-right: 10px;
+   margin-left: 35px;
+}
+
+#btn {
+    position: absolute;
+    transition: .5s;
+  }
+

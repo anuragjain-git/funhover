@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h3>Are you stupid ?</h3>
+        <button id="b1">Yes</button>
+        <button id="btn">No</button>
+        <script>
+            const button = document.getElementById('btn');
+            const b1 = document.getElementById('b1');
+            button.addEventListener('mouseover', function () {
+                button.style.left = `${Math.ceil(Math.random() * 90)}%`;
+                button.style.top = `${Math.ceil(Math.random() * 90)}%`;
+            });
+            b1.addEventListener('click', function () {
+                alert("I Knew It!"); 
+            }) 
+    </script>
+    </div>
+    
+
+      
+    
+    
+</body>
+</html>
